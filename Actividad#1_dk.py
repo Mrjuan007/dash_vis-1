@@ -383,4 +383,5 @@ def update_hqic_graph(rolling_option):
 
 # Ejecutar la app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get('PORT', 8050))  # Usar el puerto proporcionado por Render o 8050 por defecto
+    app.run_server(host='0.0.0.0', port=port)
