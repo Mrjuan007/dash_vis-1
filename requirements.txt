@@ -11,6 +11,6 @@ yfinance==0.2.30
 pandas-datareader==0.10.0
 statsmodels==0.14.0
 scipy==1.11.3
-ta-lib==0.4.0
+ta-lib==0.4.29
 ta==0.11.0
 
